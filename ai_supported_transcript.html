@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <!-- icon css -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive_home.css" />
+    <link rel="stylesheet" href="css/ai_supported.css" />
+
+    <title>Vanderbilt AI Negotiation Lab</title>
+  </head>
+  <body>
+    <!-- <a href="#" id="to-top"><i class="las la-chevron-up"></i></a> -->
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="images/vanderbilt_logo.png" alt="Vanderbilt Logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Goals
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="requirements.html" role="button">
+              Requirements
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Team
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="negotiation_team.html"
+                >Negotiation Team</a
+              >
+              <a class="dropdown-item" href="data_science_teams.html"
+                >Data Science Team</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Affiliations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a
+                class="dropdown-item"
+                href="https://www.vanderbilt.edu/datascience/"
+                target="_blank"
+                >Vanderbilt Data Science Institute</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.negotiationandteamresources.com/"
+                target="_blank"
+                >Negotiation and Team Resources</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- home content -->
+    <div class="transcript-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="transcript-introduction">
+              <p>
+                Welcome to version 1.0 of the Negotiation Transcript Coder
+                provided by Vanderbilt University. The purpose of this process
+                is to automate the coding process for negotiation scholars who
+                want to code negotiation transcripts.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="transcript-collapse">
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button
+                        class="btn btn-link"
+                        data-toggle="collapse"
+                        data-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        AI MODEL USED FOR CODING
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseOne"
+                    class="collapse show"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      This collapse will describe which model we are using.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button
+                        class="btn btn-link collapsed"
+                        data-toggle="collapse"
+                        data-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        CODING SCHEME USED
+                      </button>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseTwo"
+                    class="collapse"
+                    aria-labelledby="headingTwo"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      <p>
+                        The coding scheme we use is a simplified, 19-code
+                        version of NegotiAct, a coding scheme developed by
+                        <a
+                          href="https://journals.sagepub.com/doi/10.1177/10596011221132600"
+                          class="external-link"
+                          target="_blank"
+                          >Jackel, et al (2022)</a
+                        >. This approach was selected because it was designed to
+                        incorporate the major themes of the most widely cited
+                        negotiation coding schemes.
+                      </p>
+
+                      <p>
+                        The NegotiAct coding scheme includes 42 codes. Because
+                        our initial attempts with transformer models could not
+                        handle so many codes, we asked Jackel to suggest ways to
+                        reduce the number of codes. She did this by a) combining
+                        some codes and b) skipping some codes. The codes that
+                        were selected to keep are the ones that are based on the
+                        five most-cited negotiation articles with codes (X,Y, X,
+                        ) and which occurred most often in Jackel et al’s (2022)
+                        transcript database. We also excluded those that depend
+                        on knowing the payoff structure of the negotiation, and
+                        comparing statements with the payoff structure, such as
+                        “high anchor” or “lying.” Those codes that were skipped
+                        are represented by the category “other,” which was added
+                        to prevent model from forcing statements into the wrong
+                        code. This process produced a list of 17 codes, plus
+                        “other.”
+                      </p>
+
+                      <p>The modified coding scheme is:</p>
+
+                      <div class="coding-table">
+                        <table class="table table-hover table-responsive-lg">
+                          <thead>
+                            <tr>
+                              <th scope="col" class="col-lg-3">Code Number</th>
+                              <th scope="col" class="col-lg-9">Code</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="table-danger">
+                              <th scope="row">1</th>
+                              <td>
+                                <span class="green-badge">Providing</span>
+                                positional information
+                              </td>
+                            </tr>
+                            <tr class="table-danger">
+                              <th scope="row">2</th>
+                              <td>
+                                <span class="blue-badge">Asking</span>
+                                positional information
+                              </td>
+                            </tr>
+                            <tr class="table-danger">
+                              <th scope="row">3</th>
+                              <td>
+                                <span class="green-badge">Providing</span>
+                                priority-related information
+                              </td>
+                            </tr>
+                            <tr class="table-danger">
+                              <th scope="row">4</th>
+                              <td>
+                                <span class="blue-badge">Asking</span> for
+                                priority-related information
+                              </td>
+                            </tr>
+                            <tr class="table-danger">
+                              <th scope="row">5</th>
+                              <td>
+                                <span class="green-badge">Providing</span>
+                                preference-related information
+                              </td>
+                            </tr>
+                            <tr class="table-danger">
+                              <th scope="row">6</th>
+                              <td>
+                                <span class="blue-badge">Asking</span> for
+                                preference-related information
+                              </td>
+                            </tr>
+                            <tr class="table-danger">
+                              <th scope="row">7</th>
+                              <td>Clarification</td>
+                            </tr>
+                            <tr class="table-info">
+                              <th scope="row">8</th>
+                              <td>Single-issue activity</td>
+                            </tr>
+                            <tr class="table-info">
+                              <th scope="row">9</th>
+                              <td>Multi-issue activity</td>
+                            </tr>
+                            <tr class="table-info">
+                              <th scope="row">10</th>
+                              <td>Rejecting Offer</td>
+                            </tr>
+                            <tr class="table-info">
+                              <th scope="row">11</th>
+                              <td>Accepting Offer</td>
+                            </tr>
+                            <tr class="table-danger">
+                              <th scope="row">12</th>
+                              <td>
+                                Contentious Communication
+                                <span class="red-badge"
+                                  >(Stressing Power, Criticism, Threat,
+                                  Hostilty)</span
+                                >
+                              </td>
+                            </tr>
+                            <tr class="table-danger">
+                              <th scope="row">13</th>
+                              <td>
+                                Substantiation
+                                <span class="red-badge"
+                                  >(Substantiation, Asking for substantiation
+                                  and Rejecting substantiation)</span
+                                >
+                              </td>
+                            </tr>
+                            <tr class="table-info">
+                              <th scope="row">14</th>
+                              <td>
+                                Positive Statements
+                                <span class="red-badge"
+                                  >(Positive affective reaction and Positive
+                                  relationship remarks)</span
+                                >
+                              </td>
+                            </tr>
+                            <tr class="table-info">
+                              <th scope="row">15</th>
+                              <td>
+                                Negative Statements
+                                <span class="red-badge"
+                                  >(Negative affective reaction and Negative
+                                  relationship remarks)</span
+                                >
+                              </td>
+                            </tr>
+                            <tr class="table-info">
+                              <th scope="row">16</th>
+                              <td>Humor</td>
+                            </tr>
+                            <tr class="table-danger">
+                              <th scope="row">17</th>
+                              <td>Active listening</td>
+                            </tr>
+                            <tr class="table-danger">
+                              <th scope="row">18</th>
+                              <td>
+                                Procedural comments
+                                <span class="red-badge"
+                                  >(Procedural suggestion, Procedural
+                                  discussion, Time management)</span
+                                >
+                              </td>
+                            </tr>
+                            <tr class="table-info">
+                              <th scope="row">19</th>
+                              <td>Other</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button
+                        class="btn btn-link collapsed"
+                        data-toggle="collapse"
+                        data-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        Validation of Coding Scheme
+                      </button>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseThree"
+                    class="collapse"
+                    aria-labelledby="headingThree"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      <p>
+                        The validation process included two parts: testing
+                        performance using a set of human coded sample sentences,
+                        and testing performance on 5 human coded transcripts.
+                      </p>
+
+                      <p>
+                        <span style="font-weight: bold; margin-left: 2em"
+                          >Validation Step #1: </span
+                        >Sample Sentences. Jackel et al (2022) included about
+                        five sample sentences for each code in their coding
+                        manual. Dr. Jackel then created about 20 more sample
+                        sentences for each code. We then used ChatGPT to create
+                        another 70 sentences that were similar to the initial 25
+                        examples. These sentences were then check by Dr. Jackel
+                        and any which were not good examples of that code were
+                        deleted. In the end we had a list of about 70-80
+                        examples for each code, with a smaller sample for some
+                        of the very clear-cut codes (such as “reject an offer”).
+                        We used 70% of the sample sentences to train the model
+                        and held back 30% to validate the model. We asked the
+                        trained model to code those 30%, and checked for
+                        accuracy. In the model we present here, the accuracy was
+                        92%. We should note that with human coders, agreement
+                        levels are typically in the 80-90% range, so 92% should
+                        be considered very good. See Appendix B for the test
+                        results.
+                      </p>
+                      <p>
+                        <span style="font-weight: bold; margin-left: 2em"
+                          >Validation Step #2: </span
+                        >Test with NegotiAct Hand Coding of Transcripts. We took
+                        five sample transcripts provided by different scholars,
+                        and first hand coded them. Then, we ran the program to
+                        code them, and compared the human-coding against the
+                        model coding. The results on these five transcripts were
+                        X%, Y%, Y%, Y%, and Y%. See Appendix C for the test
+                        results.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button
+                        class="btn btn-link collapsed"
+                        data-toggle="collapse"
+                        data-target="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                      >
+                        Formatting Your Transcript
+                      </button>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseFour"
+                    class="collapse"
+                    aria-labelledby="headingFour"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      To get codes transform you transcript into txt format
+                      (more on that below) and copy into the INPUT section
+                      below. The model will provide a csv file with sentences
+                      and codes.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button
+                        class="btn btn-link collapsed"
+                        data-toggle="collapse"
+                        data-target="#collapseFive"
+                        aria-expanded="false"
+                        aria-controls="collapseFive"
+                      >
+                        Steps to Code Your Transcripts
+                      </button>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseFive"
+                    class="collapse"
+                    aria-labelledby="headingFive"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      <div class="card-body-subtitle">
+                        Step 1: Create thoughts units
+                      </div>
+
+                      <p>
+                        <span style="margin-left: 2em">The</span> appropriate
+                        unit of analysis is a “thought unit.” This may sometimes
+                        be a whole sentence, or there may be several thought
+                        units within a sentence. If you do nothing, the model
+                        will take each sentence as the unit of analysis, bounded
+                        by any of these five markers: .!?[]. If you want to
+                        break a sentence into two or more thought units, put the
+                        word “RETURN” (all upper case) or one of the five
+                        markers into the sentence at the end of the thought
+                        unit. This sentence would be one thought unit:
+                        <i
+                          >“I would like that offer, but I am not confident in
+                          their abilities.”</i
+                        >
+                        Adding RETURN like this would make it into two thought
+                        units:<i
+                          >“I would like that offer RETURN, but I am not
+                          confident in their abilities.”</i
+                        >
+                        See this document for more on thought units.
+                      </p>
+
+                      <div class="card-body-subtitle">Step 2: Enter text</div>
+
+                      <p>
+                        <span style="margin-left: 2em">Within</span>
+                        Word or Excel, select about 30 thought units at a time.
+                        Right click “copy.” Then move your cursor into the input
+                        box. Right click “paste as plain text” (control V).
+                        Click SUBMIT. You will see a timer start, which should
+                        finish in about 30 seconds.
+                      </p>
+
+                      <div class="card-body-subtitle">Step 3: Read Output</div>
+
+                      <p>
+                        <span style="margin-left: 2em">You</span> will see a cvs
+                        file in the output box. Click on the blue download arrow
+                        on the right. The file will be displayed by Excel. The
+                        format should be Sentence number, Category Number (see
+                        below), Input Sentence. The format may also come out
+                        looking a bit different, with sentence number and code
+                        shown in this way {3:14}.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button
+                        class="btn btn-link collapsed"
+                        data-toggle="collapse"
+                        data-target="#collapseSix"
+                        aria-expanded="false"
+                        aria-controls="collapseSix"
+                      >
+                        Submit Your Transcript
+                      </button>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseSix"
+                    class="collapse"
+                    aria-labelledby="headingSix"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      <p>This will have the place to enter text data.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- tabs section -->
+    <!-- <div class="coding-scheme-tab">
+      <div class="container">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="pills-model-tab"
+              data-toggle="pill"
+              data-target="#pills-model"
+              type="button"
+              role="tab"
+              aria-controls="pills-model"
+              aria-selected="true"
+            >
+              AI Model Used for Coding
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-scheme-tab"
+              data-toggle="pill"
+              data-target="#pills-scheme"
+              type="button"
+              role="tab"
+              aria-controls="pills-scheme"
+              aria-selected="false"
+            >
+              Coding Scheme Used
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-model"
+            role="tabpanel"
+            aria-labelledby="pills-model-tab"
+          >
+            <div class="model-content">
+              <p>This tab will describe which model we are using.</p>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-scheme"
+            role="tabpanel"
+            aria-labelledby="pills-scheme-tab"
+          >
+            <div class="scheme-content">
+              <div class="scheme-info">
+                <p>
+                  The coding scheme we use is a simplified, 19-code version of
+                  NegotiAct, a coding scheme developed by
+                  <a
+                    href="https://journals.sagepub.com/doi/10.1177/10596011221132600"
+                    class="external-link"
+                    target="_blank"
+                    >Jackel, et al (2022)</a
+                  >. This approach was selected because it was designed to
+                  incorporate the major themes of the most widely cited
+                  negotiation coding schemes.
+                </p>
+
+                <p>
+                  The NegotiAct coding scheme includes 42 codes. Because our
+                  initial attempts with transformer models could not handle so
+                  many codes, we asked Jackel to suggest ways to reduce the
+                  number of codes. She did this by a) combining some codes and
+                  b) skipping some codes. The codes that were selected to keep
+                  are the ones that are based on the five most-cited negotiation
+                  articles with codes (X,Y, X, ) and which occurred most often
+                  in Jackel et al’s (2022) transcript database. We also excluded
+                  those that depend on knowing the payoff structure of the
+                  negotiation, and comparing statements with the payoff
+                  structure, such as “high anchor” or “lying.” Those codes that
+                  were skipped are represented by the category “other,” which
+                  was added to prevent model from forcing statements into the
+                  wrong code. This process produced a list of 17 codes, plus
+                  “other.”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-4 col-12">
+            <div class="footer1">
+              <a href="#" class="footer-brand">
+                <img
+                  src="images/vanderbilt_logo_footer.png"
+                  alt="Vanderbilt Logo"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4 offset-md-4 col-12">
+            <div class="footer4">
+              <ul class="address-info">
+                <li>Vanderbilt University</li>
+                <li>2301 Vanderbilt Place</li>
+                <li>Nashville, TN 37235</li>
+                <li>615.322.2534</li>
+              </ul>
+
+              <!-- <ul class="social-media">
+                <a href="#"
+                  ><li><i class="lab la-facebook-f"></i></li
+                ></a>
+                <a href="#"
+                  ><li><i class="lab la-twitter"></i></li
+                ></a>
+                <a href="#"
+                  ><li><i class="lab la-instagram"></i></li
+                ></a>
+                <a href="#"
+                  ><li><i class="lab la-linkedin-in"></i></li
+                ></a>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="copyright">
+          <div class="row">
+            <div class="col-12">
+              <p>
+                Copyright &copy; 2022. All Right Reserved
+                <span>Vanderbilt University</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- scripts -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      jQuery(document).ready(function () {
+        var duration = 500;
+        jQuery(window).scroll(function () {
+          if (jQuery(this).scrollTop() > 300) {
+            document.getElementById("to-top").style.opacity = "1";
+          } else {
+            document.getElementById("to-top").style.opacity = "0";
+          }
+        });
+
+        jQuery(".to-top").click(function (event) {
+          event.preventDefault();
+          jQuery("html").animate({ scrollTop: 0 }, duration);
+          return false;
+        });
+      });
+    </script>
+  </body>
+</html>

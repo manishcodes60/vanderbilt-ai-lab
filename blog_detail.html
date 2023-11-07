@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <!-- icon css -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/responsive_home.css">
+    <link rel="stylesheet" href="css/responsive_blog.css">
+
+    <title>Company Theme Website</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg"
+          width="30"
+          height="30"
+          alt="NavBar Icon"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Home <i class="las la-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              About <i class="las la-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdownabout-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Pages <i class="las la-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Shop <i class="las la-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Blog <i class="las la-angle-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="las la-shopping-cart"></i
+            ></a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <button
+            class="btn-support btn btn-outline-success my-2 my-sm-0"
+            type="submit"
+          >
+            SUPPORT
+          </button>
+          <button
+            class="btn-login btn btn-outline-success my-2 my-sm-0"
+            type="submit"
+          >
+            LOGIN
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- about banner -->
+    <div class="title-banner">
+      <div class="shape1"></div>
+      <div class="icon">
+        <i class="las la-times"></i>
+      </div>
+      <div class="circle-shape">
+        <i class="bi bi-circle"></i>
+      </div>
+      <!-- <div class="shape-image">
+          <img src="https://spet-gatsby.envytheme.com/static/banner-bg1-573a8cc58841d5b4cd173aed69aea83f.jpg" alt="">
+      </div> -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="banner-box">
+              <div class="banner-heading">
+                <h4>BLOG DETAILS</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DETAILS -->
+    <div class="blog-details-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="blog-details-info">
+                        <div class="blog-details-image">
+                            <img src="https://spet-gatsby.envytheme.com/static/blog-details-fb50e94f7547cede1bcc161297b3d313.jpg" alt="">
+                        </div>
+                        <div class="row">
+                        <div class="col-lg-5">
+                           <div class="blog-row-items">
+                            <i class="las la-clock"></i> <span>Lorem ipsum dolor sit.</span>
+                           </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="blog-row-items">
+                                <i class="las la-clock"></i> <span>Lorem ipsum dolor sit.</span>
+                               </div>
+                        </div>
+                    </div>
+                    <h4>The security risks of changing package owners</h4>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore ab repudiandae minima labore amet magnam totam qui, eligendi animi.</p>
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora facilis labore repudiandae vel, optio expedita nobis reprehenderit suscipit unde? Numquam, temporibus, distinctio ad dignissimos dicta rerum, consequatur totam debitis tempore animi nihil quos laudantium veritatis recusandae? Ab id facere quod?</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod totam suscipit sint deleniti blanditiis magni qui, aliquam nesciunt est harum consequatur tempore provident quos? Harum, ipsum modi, praesentium veritatis eligendi eaque neque esse libero, excepturi dignissimos repellat explicabo repellendus reiciendis natus vero officia exercitationem aspernatur commodi ratione veniam! Inventore, quas?</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem temporibus autem saepe expedita quam a nostrum ipsa consequatur, doloribus animi fugit maxime repellat similique ullam ut sequi quos dignissimos rem?</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam pariatur delectus nihil aliquid esse reiciendis!</p>
+                    </div> 
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-details-right">
+                        <div class="blog-search">
+                            <form action="">
+                                <div class="col-auto">
+                                    <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                                    <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="las la-search"></i></div>
+                                      </div>
+                                      <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Search...">
+                                    </div>
+                                  </div>
+                            </form>
+                        </div>
+                        <div class="blog-popular-post">
+                            <h5>Popular Posts</h5>
+
+                            <div class="row">
+                                
+                                <div class="col-lg-3"><div class="popular-post-image">
+                                    <img src="https://spet-gatsby.envytheme.com/static/blog7-97f9e205d350b574f8c5783c09a8f809.jpg" alt="">
+                                </div></div>
+                                <div class="col-lg-9"><div class="popular-post-info">
+                                    <h6>Lorem, ipsum dolor</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, deserunt.</p>
+                                </div></div>
+                            </div>
+                            <div class="row">
+                                
+                                <div class="col-lg-3"><div class="popular-post-image">
+                                    <img src="https://spet-gatsby.envytheme.com/static/blog7-97f9e205d350b574f8c5783c09a8f809.jpg" alt="">
+                                </div></div>
+                                <div class="col-lg-9"><div class="popular-post-info">
+                                    <h6>Lorem, ipsum dolor</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, deserunt.</p>
+                                </div></div>
+                            </div>
+                            <div class="row">
+                                
+                                <div class="col-lg-3"><div class="popular-post-image">
+                                    <img src="https://spet-gatsby.envytheme.com/static/blog7-97f9e205d350b574f8c5783c09a8f809.jpg" alt="">
+                                </div></div>
+                                <div class="col-lg-9"><div class="popular-post-info">
+                                    <h6>Lorem, ipsum dolor</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, deserunt.</p>
+                                </div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- comments -->
+    <div class="comment-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="comment-heading">
+                        <h6>Comments</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1"><div class="popular-post-image">
+                    <img src="https://spet-gatsby.envytheme.com/static/blog7-97f9e205d350b574f8c5783c09a8f809.jpg" alt="">
+                </div></div>
+                <div class="col-lg-10"><div class="popular-post-info">
+                    <h6>Lorem, ipsum dolor</h6>
+                    <span><i class="lar la-clock"></i> April 12, 2022</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, deserunt.</p>
+                </div></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1"><div class="popular-post-image">
+                    <img src="https://spet-gatsby.envytheme.com/static/blog7-97f9e205d350b574f8c5783c09a8f809.jpg" alt="">
+                </div></div>
+                <div class="col-lg-10"><div class="popular-post-info">
+                    <h6>Lorem, ipsum dolor</h6>
+                    <span><i class="lar la-clock"></i> April 12, 2022</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, deserunt.</p>
+                </div></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1"><div class="popular-post-image">
+                    <img src="https://spet-gatsby.envytheme.com/static/blog7-97f9e205d350b574f8c5783c09a8f809.jpg" alt="">
+                </div></div>
+                <div class="col-lg-10"><div class="popular-post-info">
+                    <h6>Lorem, ipsum dolor</h6>
+                    <span><i class="lar la-clock"></i> April 12, 2022</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, deserunt.</p>
+                </div></div>
+            </div>
+        </div>
+    </div>
+
+        <!-- contact form -->
+        <div class="contact-section">
+            <div class="container-fluid">
+              <div class="row m-0">
+                <div class="col-lg-12">
+                  <div class="contact-section-title">
+                    <h4>Leave a Reply</h4>
+                    <div class="title-design-shape"></div>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
+                      deserunt rerum magni laudantium eveniet exercitationem!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row align-items-center">
+                
+                <div class="col-md-6 col-12">
+                  <form>
+                
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+                      </div>
+                      <div class="form-group col-md-6">
+                       
+                        <input type="text" class="form-control" id="inputPassword4" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                 
+                      <textarea placeholder="Comment" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+      
+                    <button type="submit" class="btn btn-primary">COMMENT</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="footer1">
+              <div class="shape1"></div>
+              <img
+                src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg"
+                width="30"
+                height="30"
+                alt="NavBar Icon"
+              />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+                culpa corrupti quibusdam quos, adipisci quidem rerum quasi,
+                architecto impedit labore odit veritatis nostrum amet laborum
+                iste
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="footer2">
+              <h6>Company</h6>
+
+              <ul>
+                <li>About Us</li>
+                <li>About Us</li>
+                <li>About Us</li>
+                <li>About Us</li>
+                <li>About Us</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="footer3">
+              <h6>Support</h6>
+              <ul>
+                <li>About Us</li>
+                <li>About Us</li>
+                <li>About Us</li>
+                <li>About Us</li>
+                <li>About Us</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer4">
+              <div class="icon">
+                <i class="las la-times"></i>
+              </div>
+              <h6>Address</h6>
+
+              <ul class="address-info">
+                <li><i class="las la-envelope"></i> spet@gmail.com</li>
+                <li><i class="las la-envelope"></i> spet@gmail.com</li>
+                <li><i class="las la-envelope"></i> spet@gmail.com</li>
+              </ul>
+
+              <ul class="social-media">
+                <a href="#"
+                  ><li><i class="lab la-facebook-f"></i></li
+                ></a>
+                <a href="#"
+                  ><li><i class="lab la-twitter"></i></li
+                ></a>
+                <a href="#"
+                  ><li><i class="lab la-instagram"></i></li
+                ></a>
+                <a href="#"
+                  ><li><i class="lab la-linkedin-in"></i></li
+                ></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <div class="row">
+            <div class="col-12">
+              <p>
+                Copyright &copy; 2022. All Right Reserved
+                <span>Digital Nepal</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- scripts -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
