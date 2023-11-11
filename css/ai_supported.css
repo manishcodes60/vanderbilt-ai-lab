@@ -143,3 +143,37 @@
 a{
     color: #d8ab4c;
 }
+
+.form-group .form-control{
+    border-radius: 0;
+    padding: 1em 0.7em;
+    height: auto;
+    font-family: 'Libre Caslon';
+    outline: none;
+    box-shadow: none;
+}
+
+.form-group .form-control:focus{
+    border: 1px solid #d8ab4c;
+}
+
+.submit-button, .clear-button{
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    padding: 0.7em 1em;
+    font-family: "Antonio";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.clear-button{
+    background: #efefef!important;
+}
+
+.submit-button:focus, .clear-button:focus{
+    outline: none!important;
+    box-shadow: none!important;
+}
