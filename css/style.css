@@ -1150,9 +1150,12 @@ footer {
 }
 
 .footer4 .address-info li {
+  padding: 0.1em 0;
   list-style-type: none;
   color: #E4E4E4;
   font-size: 1em;
+  font-family: 'Libre Caslon';
+  text-align: right;
 }
 
 .footer4 .address-info li i {
@@ -1258,5 +1261,9 @@ footer {
 
 .copyright span {
   font-weight: bold;
+  color: #CFAE70;
+}
+
+.copyright span a{
   color: #CFAE70;
 }
